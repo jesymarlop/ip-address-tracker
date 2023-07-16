@@ -1,0 +1,15 @@
+@import "./desktop.css";
+@import "./mobile.css";
+
+
+:root{
+    --color1: hsl(0, 0%, 17%);
+    --color2:hsl(0, 0%, 59%);
+    --color-font: #FFFFFF;
+    --font:Rubik;
+ }
+
+*{
+    margin: 0;
+    font-family: var(--font);
+}

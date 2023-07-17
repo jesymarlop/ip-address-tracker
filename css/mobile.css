@@ -18,7 +18,7 @@
      }
      input{
         height: 38px;
-        width:260px;
+        width:250px;
         border: 0;
         border-radius: 6px 1px 1px 6px;
         outline: none;
@@ -36,16 +36,19 @@
      .contain{
         background-color: #FFFF;
         width: 275px;
-        display: block;
+       display: block;
         margin-left: auto;
         margin-right: auto;
         padding: 7.5px;
+        z-index: 2;
+       
      }
      .part1{
         border-radius: 5px 5px 1px 1px;
      }
      .part2{
         border-radius: 1px 1px 5px 5px;
+        z-index: 2;
      }
      .part1 p{
         text-align: center;

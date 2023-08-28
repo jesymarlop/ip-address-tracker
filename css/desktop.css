@@ -1,43 +1,92 @@
 @media (min-width:375px) {
-    .up{
-        background-image:url("pattern-bg-desktop.png");
-     }
-     h1{
-        text-align: center;
-        color:var(--color-font);
-        margin-bottom: 10px;
-        padding-top: 10px;
-     }
-     .search{
-        display: flex;
-        justify-content: center;
-     }
-     input{
-        height: 38px;
-        width:300px;
-        border: 0;
-        border-radius: 6px 1px 1px 6px;
-        outline: none;
-        margin-top: 5px;
-        margin-bottom: 10px;
-     }
-     button{
-        width: 35px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        border: 0;
-        background-color:#000000;
-        border-radius: 1px 6px 6px 1px;
-     }
-     .contain{
-        background-color: #FFFF;
-        width: 275px;
-        padding: 7.5px;
-        display: inline-flex;
-        flex-direction: row;
-     }
-     .element{
-        align-self: auto;
-        margin: 10px;
-     }
+   .up {
+      background-image: url("pattern-bg-desktop.png");
+      display: block;
+      height: 38%;
+      width: 100%;
+      position: absolute;
+   }
+
+   h1 {
+      text-align: center;
+      color: var(--color-font);
+      margin-bottom: 10px;
+      padding-top: 10px;
+   }
+
+   .search {
+      display: flex;
+      justify-content: center;
+   }
+
+   input {
+      height: 38px;
+      width: 300px;
+      border: 0;
+      border-radius: 6px 1px 1px 6px;
+      outline: none;
+      margin-top: 5px;
+      margin-bottom: 10px;
+   }
+
+   button {
+      width: 35px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 0;
+      background-color: #000000;
+      border-radius: 1px 8px 8px 1px;
+   }
+
+   .contain {
+      margin-top: 175px;
+      margin-left: 25%;
+      background-color: #FFFF;
+      width: 50%;
+      height: 80px;
+      padding: 8px;
+      display: inline-flex;
+      flex-direction: row;
+      z-index: 2;
+      position: absolute;
+      border-radius: 8px;
+      box-shadow: 3px 3px 0px 0px hsl(0, 1%, 87%);
+   }
+
+   .element {
+      align-self: auto;
+      width: 25%;
+      margin: 8px;
+      padding: 2px;
+   }
+   .borde{
+      border-right: 1px solid hsl(0, 1%, 87%);
+   }
+
+   .gray {
+      color: var(--color2);
+      font-size: 10px;
+      font-weight: bold;
+      margin-bottom: 4px;
+   }
+
+   .black {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 2px;
+   }
+
+   #mapa {
+      margin-top: 203px;
+      width: 100%;
+      height: 380px;
+      position: absolute;
+      z-index: 1;
+   }
+   .icon{
+      position: absolute; 
+     z-index: 3;
+     margin-top: 30%;
+     margin-left: 50%;
+    }
 }

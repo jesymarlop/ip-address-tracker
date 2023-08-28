@@ -34,42 +34,47 @@
 </head>
 
 <body>
-  <main>
+   <main>
     <div class="up">
       <h1>IP Address Tracker</h1>
       <div class="search">
         <input type="text" id="inputip">
-        <button id="btnip"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg></button>
-      </div>
-      <div class="contain part1">
-        <div class="element">
-        <p class="gray">IP ADDRESS</p>
-        <p class="black" id="ipa"> </p>
-      </div>
-      <div class="element">
-        <p class="gray">LOCATION</p>
-        <p class="black" id="local"> </p>
-      </div>
-      </div>
+        <button id="btnip"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="14">
+            <path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6" />
+          </svg></button>
+      <!--       <div class="contain part1">
+      </div> -->
     </div>
-    <div id="map">
+    </div>
+    <div id="mapa">
+    </div>
     <div class="down">
-      <div class="contain part2">
+
+      </div>
+      <div class="contain ">
+        <div class="element borde">
+          <p class="gray">IP ADDRESS</p>
+          <p class="black" id="ipa">-- </p>
+        </div>
+        <div class="element borde">
+          <p class="gray">LOCATION</p>
+          <p class="black" id="local">-- </p>
+        </div>
+        <div class="element borde">
+          <p class="gray">TIME ZONE</p>
+          <p class="black" id="time">-- </p>
+        </div>
         <div class="element">
-        <p class="gray">TIME ZONE</p>
-        <p class="black" id="time"> </p>
+          <p class="gray">ISP</p>
+          <p class="black" id="isp">-- </p>
+        </div>
+
       </div>
-        <div class="element">
-        <p class="gray">ISP</p>
-        <p class="black" id="isp"> </p>
+      <img src="./images/icon-location.svg" alt="" class="icon">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Jesymar</a>.
       </div>
-      </div>
-    </div>
-</div>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Jesymar</a>.
-    </div>
   </main>
 
 
